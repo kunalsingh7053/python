@@ -41,3 +41,26 @@ print(car.items())
 #updating dictionary
 car.update({"year":2021, "color":"red"})
 print(car)
+
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+
+# Create a new dictionary
+result = {}
+result.update(dict1)
+result.update(dict2)
+
+
+print("Concatenated Dictionary:", result)
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+
+result = {**dict1, **dict2}
+
+print("Concatenated Dictionary:", result)
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+
+result = dict1 | dict2
+
+print("Concatenated Dictionary:", result)

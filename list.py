@@ -43,3 +43,7 @@ print(y)
 #reverse list
 y.reverse()
 print(y)
+
+# remove all elements
+x.clear()
+print(x)
