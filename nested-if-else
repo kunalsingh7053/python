@@ -7,3 +7,5 @@ if age>=70:
         print("10% sinior discount")
 else:
     print("No discount")    
+
+print("Thank you for visiting our store")    
